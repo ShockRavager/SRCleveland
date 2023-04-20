@@ -1,0 +1,12 @@
+
+/* HEADER */
+
+button.HeaderBTN {
+    border-width: 1px;
+    border-color: #8f8f8f;
+    border-radius: 6px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: white;
+}

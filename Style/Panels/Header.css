@@ -1,0 +1,41 @@
+
+/* HEADER GRID */
+
+div.HeaderGrid {
+    display: grid;
+    grid-template-areas: "HG_Col1 HG_Col2 HG_Col3";
+    grid-template-columns: 32% 36% 32%;
+    position: relative;
+    height: 70px;
+    background-color: inherit;
+}
+
+div.HGLeftCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: HG_Col1;
+    position: relative;
+    height: inherit;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+div.HGCentralCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: HG_Col2;
+    position: relative;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+div.HGRightCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: HG_Col3;
+    position: relative;
+    height: inherit;
+    justify-content: right;
+    align-items: flex-end;
+}

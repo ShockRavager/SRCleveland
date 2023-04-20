@@ -1,0 +1,31 @@
+
+/* DOCUMENT */
+
+div.Header {
+    position: sticky;
+    height: auto;
+    top:0;
+    z-index: 1;
+    background-color: #2a2a2a;
+}
+
+div.Page {
+    position: relative;
+    height: auto;
+    z-index: 0;
+    background-color: white;
+}
+
+div.Footer {
+    position: relative;
+    height: auto;
+    z-index: 0;
+    background-color: #d2d2d2;
+}
+
+
+/* GLOBAL DIV */
+
+div.VSpace {
+    position: relative;
+}
