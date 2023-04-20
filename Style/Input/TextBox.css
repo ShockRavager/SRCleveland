@@ -1,0 +1,21 @@
+
+/* HEADER DROPDOWN */
+
+input.HeaderLeftCornerDDTB1[type="text"] {
+    display: flex;
+    width: calc(100% - 8px);
+    height: 40px;
+    border-width: 1px;
+    border-color: #191919;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: white;
+    justify-content: left;
+    color: black;
+    padding: 4px;
+    font-size: 15px;
+}
+
+input.HeaderLeftCornerDDTB1[type="text"]:focus {
+    border-width: 1px;
+}

@@ -1,7 +1,8 @@
 
-/* HEADER */
+/* HEADER BUTTON */
 
 button.HeaderBTN {
+    border-style: solid;
     border-width: 1px;
     border-color: #8f8f8f;
     border-radius: 6px;
@@ -9,4 +10,40 @@ button.HeaderBTN {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: white;
+}
+
+
+/* HEADER DROPDOWN BUTTON */
+
+button.HeaderDDBTN1 {
+    height: 40px;
+    width: 100%;
+    border-width: 0;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+button.HeaderDDBTN1:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button.HeaderDDBTN2 {
+    height: 40px;
+    width: 100%;
+    border-width: 0;
+    border-radius: 6px;
+    background-color: #2a2a2a;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+button.HeaderDDBTN2:hover {
+    background-color: #8f8f8f;
+    font-weight: bold;
+    text-decoration: underline;
+    transition-duration: 500ms;
 }
