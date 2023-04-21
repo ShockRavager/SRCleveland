@@ -3,6 +3,7 @@
 
 span.DefaultSpan {
     font-family: Roboto, sans-serif;
+    pointer-events: none;
 }
 
 

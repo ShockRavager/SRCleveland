@@ -10,7 +10,7 @@ function HeaderBTN2_EventClick() {
     }
 }
 
-function HeaderBTN2_Reset() {
+function ResetHeaderBTN2() {
     document.getElementById("ID_UpArrowIMG1").style.transform = "scaleY(1)";
     GHeaderBTN2_Status = false;
 }

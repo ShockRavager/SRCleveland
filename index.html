@@ -22,27 +22,39 @@
     <div class="HeaderGrid" id="ID_HeaderGrid">
         <div class="HGLeftCorner" id="ID_HGLeftCorner">
             <nav class="HeaderNav" id="ID_HeaderNav1">
-                <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px">
+                <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px" onclick="LoadHeaderLeftDD1_1()">
                     <span class="TripleLineIconMask" style="background-color: white; pointer-events: none"></span>
                 </button>
-                <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1">
-                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1">
+                <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_1">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_1">
                         <span class="DefaultSpan">
                             Home
                         </span>
                     </button>
-                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_2" onmouseover="LoadHeaderLeftDD1_2()" onmouseleave="ResetHeaderLeftDD1_2()">
                         <span class="DefaultSpan">
                             News
                         </span>
                         <img src="Media/Images/RightArrow.svg" alt="" id="ID_RightArrowIMG1" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 8%; position: relative;">
                     </button>
-                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_3">
+                    <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_2" onmouseover="SetHeaderLeftDD1_2_Hovered('hover')" onmouseleave="SetHeaderLeftDD1_2_Hovered('none')">
+                        <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_1">
+                            <span class="DefaultSpan">
+                                Metro
+                            </span>
+                        </button>
+                        <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_2">
+                            <span class="DefaultSpan">
+                                Support Cleveland.com
+                            </span>
+                        </button>
+                    </div>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_3">
                         <span class="DefaultSpan">
                             Cleveland's promise
                         </span>
                     </button>
-                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_4">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_4">
                         <span class="DefaultSpan">
                             Politics & elections
                         </span>
