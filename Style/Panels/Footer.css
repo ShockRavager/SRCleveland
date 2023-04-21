@@ -1,0 +1,41 @@
+
+/* FOOTER GRID */
+
+div.FooterGrid {
+    display: grid;
+    grid-template-areas: "FG_Col1 FG_Col2 FG_Col3";
+    grid-template-columns: 32% 36% 32%;
+    position: relative;
+    height: 70px;
+    background-color: inherit;
+}
+
+div.FGLeftCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FG_Col1;
+    position: relative;
+    height: inherit;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+div.FGCentralCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FG_Col2;
+    position: relative;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+div.FGRightCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FG_Col3;
+    position: relative;
+    height: inherit;
+    justify-content: right;
+    align-items: flex-end;
+}

@@ -4,30 +4,44 @@
 button.HeaderBTN {
     border-style: solid;
     border-width: 1px;
-    border-color: #8f8f8f;
+    border-color: #ffffff;
     border-radius: 6px;
     background-color: transparent;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: white;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+button.HeaderBTN:hover {
+    background-color: #646464;
+    transition-duration: 500ms;
 }
 
 
 /* HEADER DROPDOWN BUTTON */
 
 button.HeaderDDBTN1 {
-    height: 40px;
+    height: 28px;
     width: 100%;
     border-width: 0;
     background-color: transparent;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    color: white;
+    text-align: left;
+    color: black;
+    display: flex;
+    margin: 6px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 button.HeaderDDBTN1:hover {
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 button.HeaderDDBTN2 {

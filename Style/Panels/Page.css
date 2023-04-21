@@ -1,0 +1,41 @@
+
+/* PAGE GRID */
+
+div.PageGrid {
+    display: grid;
+    grid-template-areas: "PG_Col1 PG_Col2 PG_Col3";
+    grid-template-columns: 32% 36% 32%;
+    position: relative;
+    height: 70px;
+    background-color: inherit;
+}
+
+div.PGLeftCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: PG_Col1;
+    position: relative;
+    height: inherit;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+div.PGCentralCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: PG_Col2;
+    position: relative;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+div.PGRightCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: PG_Col3;
+    position: relative;
+    height: inherit;
+    justify-content: right;
+    align-items: flex-end;
+}

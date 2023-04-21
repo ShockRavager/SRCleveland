@@ -1,0 +1,31 @@
+
+/* DEFAULT */
+
+span.DefaultSpan {
+    font-family: Roboto, sans-serif;
+}
+
+
+/* ADVERTISEMENT */
+
+span.AdvertisementUp {
+    color: #8d8d8d;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+
+/* MASKED ICON */
+
+span.TripleLineIconMask {
+    -webkit-mask-image: url(../../Media/Images/TripleLineIcon.svg);
+    mask-image: url(../../Media/Images/TripleLineIcon.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    width: 100%;
+    height: 100%;
+}

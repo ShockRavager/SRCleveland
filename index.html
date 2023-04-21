@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <link rel="stylesheet" href="Style/Global.css">
+    <link rel="stylesheet" href="Style/Panels/Header.css">
+    <link rel="stylesheet" href="Style/Panels/Dropdown.css">
+    <link rel="stylesheet" href="Style/Panels/NavPanel.css">
+    <link rel="stylesheet" href="Style/Input/Button.css">
+    <link rel="stylesheet" href="Style/Input/TextBox.css">
+    <link rel="stylesheet" href="Style/Text/Span.css">
 
+    <script type="text/javascript" src="Scripts/GlobalVariables.js"></script>
+    <script type="text/javascript" src="Scripts/ButtonEvents.js"></script>
+    <script type="text/javascript" src="Scripts/LoadPanels.js"></script>
+    <script type="text/javascript" src="Scripts/GlobalFunctions.js"></script>
+
+    <meta charset="UTF-8">
+    <title>SRCleveland</title>
+</head>
+<body id="ID_Body" style = "margin: 0" onload="OnBodyLoad()">
+<div class="Header" id="ID_Header">
+    <div class="HeaderGrid" id="ID_HeaderGrid">
+        <div class="HGLeftCorner" id="ID_HGLeftCorner">
+            <nav class="HeaderNav" id="ID_HeaderNav1">
+                <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px">
+                    <span class="TripleLineIconMask" style="background-color: white; pointer-events: none"></span>
+                </button>
+                <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1">
+                        <span class="DefaultSpan">
+                            Home
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2">
+                        <span class="DefaultSpan">
+                            News
+                        </span>
+                        <img src="Media/Images/RightArrow.svg" alt="" id="ID_RightArrowIMG1" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 8%; position: relative;">
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_3">
+                        <span class="DefaultSpan">
+                            Cleveland's promise
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_4">
+                        <span class="DefaultSpan">
+                            Politics & elections
+                        </span>
+                        <img src="Media/Images/RightArrow.svg" alt="" id="ID_RightArrowIMG2" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 8%; position: relative;">
+                    </button>
+                </div>
+                <button class="HeaderBTN" id="ID_HeaderBTN2" style="margin-left: 25px; text-align: left; width: auto" onclick="HeaderBTN2_EventClick()">
+                    <span class="DefaultSpan" style="margin-left: 2px; pointer-events: none">
+                        Set weather
+                    </span>
+                    <img src="Media/Images/UpArrow.svg" alt="" id="ID_UpArrowIMG1" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 13%; position: relative;">
+                </button>
+            </nav>
+        </div>
+        <div class="HGCentralCorner" id="ID_HGCentralCorner">
+            <img src="Media/Images/MainHeaderLogo.svg" alt="" id="ID_MainHeaderLogoIMG" style="pointer-events: none; width: 25%; position: relative; display: flex">
+        </div>
+        <div class="HGRightCorner" id="ID_HGRightCorner">
+
+        </div>
+    </div>
+</div>
+<div class="Page" id="ID_Page" style="height: 1000px; background-color: bisque">
+    <div class="PageGrid" id="ID_PageGrid">
+
+    </div>
+</div>
+<div class="Footer" id="ID_Footer" style="height: 400px; background-color: orangered">
+    <div class="FooterGrid" id="ID_FooterGrid">
+
+    </div>
+</div>
 </body>
 </html>
