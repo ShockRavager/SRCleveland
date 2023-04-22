@@ -1,0 +1,8 @@
+
+/* DEFAULT */
+
+p.DefaultParagraph {
+    font-family: Roboto, sans-serif;
+    pointer-events: none;
+    font-size: 14px;
+}

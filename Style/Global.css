@@ -5,34 +5,54 @@ div.Header {
     position: sticky;
     height: auto;
     z-index: 1;
-    background-color: #2a2a2a;
+    top: 0;
 }
 
 div.Page {
     position: relative;
     height: auto;
     z-index: 0;
-    background-color: white;
 }
 
 div.Footer {
     position: relative;
     height: auto;
     z-index: 0;
-    background-color: #d2d2d2;
+}
+
+
+/* GRID CONTAINERS */
+
+div.PageCentralCorner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
 }
 
 
 /* GLOBAL DIV */
+
+div.DefaultFlexDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
 
 div.Overlay {
     position: absolute;
 }
 
 div.HSpace {
+    height: 100%;
+    display: flex;
     position: relative;
 }
 
 div.VSpace {
+    width: 100%;
+    display: flex;
     position: relative;
 }

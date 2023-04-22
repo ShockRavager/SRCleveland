@@ -4,7 +4,7 @@
 div.PageGrid {
     display: grid;
     grid-template-areas: "PG_Col1 PG_Col2 PG_Col3";
-    grid-template-columns: 32% 36% 32%;
+    grid-template-columns: 20% 60% 20%;
     position: relative;
     height: auto;
     background-color: inherit;
@@ -38,4 +38,34 @@ div.PGRightCorner {
     height: inherit;
     justify-content: right;
     align-items: flex-end;
+}
+
+
+/* CENTRAL CORNER GRID */
+
+div.PGCCGrid {
+    display: grid;
+    grid-template-areas: "PGCC_Col1 PGCC_Col2";
+    grid-template-columns: 70% 30%;
+    position: relative;
+    height: auto;
+    background-color: inherit;
+}
+
+div.PGCCLeft {
+    display: flex;
+    background-color: inherit;
+    grid-area: PGCC_Col1;
+    position: relative;
+    height: inherit;
+    justify-content: left;
+}
+
+div.PGCCRight {
+    display: flex;
+    background-color: inherit;
+    grid-area: PGCC_Col2;
+    position: relative;
+    height: inherit;
+    justify-content: center;
 }

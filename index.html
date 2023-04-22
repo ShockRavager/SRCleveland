@@ -3,11 +3,14 @@
 <head>
     <link rel="stylesheet" href="Style/Global.css">
     <link rel="stylesheet" href="Style/Panels/Header.css">
+    <link rel="stylesheet" href="Style/Panels/Page.css">
+    <link rel="stylesheet" href="Style/Panels/Footer.css">
     <link rel="stylesheet" href="Style/Panels/Dropdown.css">
     <link rel="stylesheet" href="Style/Panels/NavPanel.css">
     <link rel="stylesheet" href="Style/Input/Button.css">
     <link rel="stylesheet" href="Style/Input/TextBox.css">
     <link rel="stylesheet" href="Style/Text/Span.css">
+    <link rel="stylesheet" href="Style/Text/Paragraph.css">
 
     <script type="text/javascript" src="Scripts/GlobalVariables.js"></script>
     <script type="text/javascript" src="Scripts/ButtonEvents.js"></script>
@@ -19,7 +22,7 @@
 </head>
 <body id="ID_Body" style = "margin: 0" onload="OnBodyLoad()">
 <div class="Header" id="ID_Header">
-    <div class="HeaderGrid" id="ID_HeaderGrid">
+    <div class="HeaderGrid" id="ID_HeaderGrid" style="background-color: #2a2a2a;">
         <div class="HGLeftCorner" id="ID_HGLeftCorner">
             <nav class="HeaderNav" id="ID_HeaderNav1">
                 <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px">
@@ -137,18 +140,119 @@
         </div>
     </div>
 </div>
-<div class="Page" id="ID_Page" style="background-color: bisque">
+<div class="Page" id="ID_Page" style="background-color: #ffefdd">
     <div class="PageGrid" id="ID_PageGrid">
         <div class="PGLeftCorner" id="ID_PGLeftCorner"></div>
         <div class="PGCentralCorner" id="ID_PGCentralCorner">
-            <div class="VSpace">
-                <img src="Media/Images/SampleAdvImage2.gif" alt="" id="ID_SampleAdvImage2_IMG1" style="pointer-events: none; width: 13%; position: relative;">
+            <div class="DefaultFlexDiv" style="justify-content: center">
+                <div class="VSpace" style="height: 80px"></div>
+                <span class="AdvertisementUp" style="width: 100%; text-align: center; margin-bottom: 2px">Advertisement</span>
+                <img src="Media/Images/SampleAdvImage2.gif" alt="" id="ID_SampleAdvImage2_IMG1" style="pointer-events: none; width: 60%; position: relative;">
+                <div class="VSpace" style="height: 80px"></div>
+                <h1 style="text-align: left; width: 100%">
+                    The plain dealer
+                </h1>
+                <div class="VSpace" style="height: 2px; background-color: #2a2a2a"></div>
+                <div class="VSpace" style="height: 40px;"></div>
+                <div class="PageCentralCorner">
+                    <div class="PGCCGrid" id="ID_PGCCGrid">
+                        <div class="PGCCLeft" id="ID_PGCCLeft">
+                            <div class="DefaultFlexDiv">
+                                <div class="DefaultFlexDiv" style="justify-content: left">
+                                    <img src="Media/Images/NewsImage1.avif" alt="" id="ID_NewsImage1_IMG1" style="float: left; pointer-events: none; width: 20%; position: relative;">
+                                    <div style="width: 80%">
+                                        <div class="VSpace" style="height: 6px"></div>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
+                                        The plain dealer's front page of April 19 2023
+                                    </span>
+                                        <div class="VSpace" style="height: 12px"></div>
+                                        <p class="DefaultParagraph" style="margin-left: 24px">
+                                            Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
+                                        </p>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
+                                        By Mark Rose
+                                    </span>
+                                    </div>
+                                    <div class="VSpace" style="height: 16px;"></div>
+                                    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
+                                    <div class="VSpace" style="height: 40px;"></div>
+                                </div>
+                                <div class="DefaultFlexDiv" style="justify-content: left">
+                                    <img src="Media/Images/NewsImage1.avif" alt="" id="ID_NewsImage1_IMG2" style="float: left; pointer-events: none; width: 20%; position: relative;">
+                                    <div style="width: 80%">
+                                        <div class="VSpace" style="height: 6px"></div>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
+                                        The plain dealer's front page of April 19 2023
+                                    </span>
+                                        <div class="VSpace" style="height: 12px"></div>
+                                        <p class="DefaultParagraph" style="margin-left: 24px">
+                                            Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
+                                        </p>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
+                                        By Mark Rose
+                                    </span>
+                                    </div>
+                                    <div class="VSpace" style="height: 16px;"></div>
+                                    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
+                                    <div class="VSpace" style="height: 40px;"></div>
+                                </div>
+                                <div class="DefaultFlexDiv" style="justify-content: left">
+                                    <img src="Media/Images/NewsImage1.avif" alt="" id="ID_NewsImage1_IMG3" style="float: left; pointer-events: none; width: 20%; position: relative;">
+                                    <div style="width: 80%">
+                                        <div class="VSpace" style="height: 6px"></div>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
+                                        The plain dealer's front page of April 19 2023
+                                    </span>
+                                        <div class="VSpace" style="height: 12px"></div>
+                                        <p class="DefaultParagraph" style="margin-left: 24px">
+                                            Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
+                                        </p>
+                                        <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
+                                        By Mark Rose
+                                    </span>
+                                    </div>
+                                    <div class="VSpace" style="height: 16px;"></div>
+                                    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
+                                    <div class="VSpace" style="height: 40px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="PGCCRight" id="ID_PGCCRight">
+                            <div class="DefaultFlexDiv" style="margin-left: 40px; align-content: flex-start">
+                                <div class="DefaultFlexDiv" style="justify-content: center">
+                                    <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG1" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <div class="VSpace" style="height: 12px"></div>
+                                    <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
+                                </div>
+                                <div class="VSpace" style="height: 50px"></div>
+                                <div class="DefaultFlexDiv" style="justify-content: center">
+                                    <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG2" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <div class="VSpace" style="height: 12px"></div>
+                                    <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
+                                </div>
+                                <div class="VSpace" style="height: 50px"></div>
+                                <div class="DefaultFlexDiv" style="justify-content: center; position: sticky; top: 120px">
+                                    <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG3" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <div class="VSpace" style="height: 12px"></div>
+                                    <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="PGRightCorner" id="ID_PGRightCorner"></div>
     </div>
+    <div class="VSpace" style="height: 80px"></div>
 </div>
-<div class="Footer" id="ID_Footer" style="height: 400px; background-color: orangered">
+<div class="Footer" id="ID_Footer" style="height: 400px; background-color: #d2d2d2">
+    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
+    <div class="VSpace" style="height: 60px"></div>
+    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
     <div class="FooterGrid" id="ID_FooterGrid">
 
     </div>
