@@ -4,7 +4,6 @@
 div.Header {
     position: sticky;
     height: auto;
-    top:0;
     z-index: 1;
     background-color: #2a2a2a;
 }

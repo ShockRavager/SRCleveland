@@ -22,7 +22,7 @@
     <div class="HeaderGrid" id="ID_HeaderGrid">
         <div class="HGLeftCorner" id="ID_HGLeftCorner">
             <nav class="HeaderNav" id="ID_HeaderNav1">
-                <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px" onclick="LoadHeaderLeftDD1_1()">
+                <button class="HeaderBTN" id="ID_HeaderBTN1" style="margin-left: 25px; width: 40px">
                     <span class="TripleLineIconMask" style="background-color: white; pointer-events: none"></span>
                 </button>
                 <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_1">
@@ -31,13 +31,13 @@
                             Home
                         </span>
                     </button>
-                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_2" onmouseover="LoadHeaderLeftDD1_2()" onmouseleave="ResetHeaderLeftDD1_2()">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_2">
                         <span class="DefaultSpan">
                             News
                         </span>
                         <img src="Media/Images/RightArrow.svg" alt="" id="ID_RightArrowIMG1" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 8%; position: relative;">
                     </button>
-                    <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_2" onmouseover="SetHeaderLeftDD1_2_Hovered('hover')" onmouseleave="SetHeaderLeftDD1_2_Hovered('none')">
+                    <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_1_1">
                         <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_1">
                             <span class="DefaultSpan">
                                 Metro
@@ -56,30 +56,96 @@
                     </button>
                     <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_4">
                         <span class="DefaultSpan">
+                            Podcasts
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_5">
+                        <span class="DefaultSpan">
                             Politics & elections
                         </span>
                         <img src="Media/Images/RightArrow.svg" alt="" id="ID_RightArrowIMG2" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 8%; position: relative;">
                     </button>
+                    <div class="HeaderLeftDD1" id="ID_HeaderLeftDD1_1_2">
+                        <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_3">
+                            <span class="DefaultSpan">
+                                National politics & elections
+                            </span>
+                        </button>
+                        <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_4">
+                            <span class="DefaultSpan">
+                                State politics
+                            </span>
+                        </button>
+                        <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_2_5">
+                            <span class="DefaultSpan">
+                                Cleveland city hall
+                            </span>
+                        </button>
+                    </div>
                 </div>
-                <button class="HeaderBTN" id="ID_HeaderBTN2" style="margin-left: 25px; text-align: left; width: auto" onclick="HeaderBTN2_EventClick()">
+                <button class="HeaderBTN" id="ID_HeaderBTN2" style="margin-left: 25px; justify-content: center; width: auto; min-width: 120px" onclick="HeaderBTN2_EventClick()">
                     <span class="DefaultSpan" style="margin-left: 2px; pointer-events: none">
                         Set weather
                     </span>
                     <img src="Media/Images/UpArrow.svg" alt="" id="ID_UpArrowIMG1" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 13%; position: relative;">
                 </button>
+                <div class="HeaderLeftDD2" id="ID_HeaderLeftDD2">
+                    <span class="DefaultSpan" style="width: 100%; margin: 8px; font-weight: bold; font-size: 20px; pointer-events: none">
+                        Customize your weather
+                    </span>
+                    <div class="VSpace" style="width: 100%; height: 16px"></div>
+                    <span class="DefaultSpan" style="width: 100%; margin: 8px; font-weight: normal; font-size: 14px; pointer-events: none">
+                        Set your location
+                    </span>
+                    <label for="ID_HeaderLeftCornerDDTB1"></label>
+                    <input class="HeaderLeftCornerDDTB1" id="ID_HeaderLeftCornerDDTB1" style="margin: 8px;" type="text">
+                    <button class="HeaderDDBTN2" id="ID_HeaderDDBTN2" style="margin: 8px">
+                        Submit
+                    </button>
+                    <div class="VSpace" style="width: 100%; height: 8px; background-color: #646464; margin: 4px 8px 8px 8px"></div>
+                </div>
             </nav>
         </div>
         <div class="HGCentralCorner" id="ID_HGCentralCorner">
             <img src="Media/Images/MainHeaderLogo.svg" alt="" id="ID_MainHeaderLogoIMG" style="pointer-events: none; width: 25%; position: relative; display: flex">
         </div>
         <div class="HGRightCorner" id="ID_HGRightCorner">
-
+            <nav class="HeaderNav" id="ID_HeaderNav2">
+                <button class="HeaderBTN" id="ID_HeaderBTN3" style="margin-right: 25px; justify-content: center; width: auto; min-width: 120px">
+                    Subscribe
+                </button>
+                <button class="HeaderBTN" id="ID_HeaderBTN4" style="margin-right: 25px; justify-content: center; width: auto; min-width: 120px">
+                    <img src="Media/Images/UserSignInIcon.svg" alt="" id="ID_UserSignInIconIMG1" style="margin-right: 6px; pointer-events: none; width: 24%; position: relative;">
+                    <span class="DefaultSpan" style="margin-left: 2px; pointer-events: none">
+                        Sign in
+                    </span>
+                    <img src="Media/Images/UpArrow.svg" alt="" id="ID_UpArrowIMG2" style="transform: scaleY(1); margin-left: 6px; pointer-events: none; width: 13%; position: relative;">
+                </button>
+                <div class="HeaderRightDD1" id="ID_HeaderRightDD1">
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_6">
+                        <span class="DefaultSpan">
+                            Home
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_7">
+                        <span class="DefaultSpan">
+                            News
+                        </span>
+                    </button>
+                </div>
+            </nav>
         </div>
     </div>
 </div>
-<div class="Page" id="ID_Page" style="height: 1000px; background-color: bisque">
+<div class="Page" id="ID_Page" style="background-color: bisque">
     <div class="PageGrid" id="ID_PageGrid">
-
+        <div class="PGLeftCorner" id="ID_PGLeftCorner"></div>
+        <div class="PGCentralCorner" id="ID_PGCentralCorner">
+            <div class="VSpace">
+                <img src="Media/Images/SampleAdvImage2.gif" alt="" id="ID_SampleAdvImage2_IMG1" style="pointer-events: none; width: 13%; position: relative;">
+            </div>
+        </div>
+        <div class="PGRightCorner" id="ID_PGRightCorner"></div>
     </div>
 </div>
 <div class="Footer" id="ID_Footer" style="height: 400px; background-color: orangered">

@@ -20,29 +20,28 @@ div.HeaderLeftDD2 {
     background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: absolute;
     margin: 0;
     border-width: 2px;
     border-style: solid;
     border-color: #2a2a2a;
-    justify-content: center;
+    justify-content: left;
     align-items: start;
     width: 300px;
-    height: 100%;
+    height: auto;
 }
 
 div.HeaderRightDD1 {
     background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    box-shadow: 0 0 3px #2a2a2a, 0 0 5px #2a2a2a;
+    position: absolute;
     margin: 0;
-    border-width: 0;
+    border-width: 2px;
     border-style: solid;
-    border-color: #8f8f8f;
+    border-color: #2a2a2a;
     justify-content: center;
     align-items: start;
-    width: 320px;
-    height: 100%;
+    width: 220px;
+    height: auto;
 }

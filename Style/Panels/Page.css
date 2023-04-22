@@ -6,7 +6,7 @@ div.PageGrid {
     grid-template-areas: "PG_Col1 PG_Col2 PG_Col3";
     grid-template-columns: 32% 36% 32%;
     position: relative;
-    height: 70px;
+    height: auto;
     background-color: inherit;
 }
 

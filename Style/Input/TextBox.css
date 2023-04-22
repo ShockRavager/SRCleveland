@@ -4,7 +4,7 @@
 input.HeaderLeftCornerDDTB1[type="text"] {
     display: flex;
     width: calc(100% - 8px);
-    height: 40px;
+    height: 28px;
     border-width: 1px;
     border-color: #191919;
     border-radius: 6px;
