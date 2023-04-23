@@ -57,6 +57,7 @@ button.HeaderDDBTN2 {
 }
 
 button.HeaderDDBTN2:hover {
+    cursor: pointer;
     background-color: #646464;
     font-weight: bold;
     text-decoration: underline;
