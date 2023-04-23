@@ -30,3 +30,16 @@ span.TripleLineIconMask {
     width: 100%;
     height: 100%;
 }
+
+
+/* SIMULATED LINK */
+
+span.SimulatedLink {
+    font-family: Roboto, sans-serif;
+}
+
+span.SimulatedLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}

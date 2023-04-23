@@ -4,9 +4,9 @@
 div.FooterGrid {
     display: grid;
     grid-template-areas: "FG_Col1 FG_Col2 FG_Col3";
-    grid-template-columns: 32% 36% 32%;
+    grid-template-columns: 20% 60% 20%;
     position: relative;
-    height: 70px;
+    height: auto;
     background-color: inherit;
 }
 
@@ -38,4 +38,46 @@ div.FGRightCorner {
     height: inherit;
     justify-content: right;
     align-items: flex-end;
+}
+
+
+/* FOOTER SUBGRID */
+
+div.FooterSubGrid {
+    display: grid;
+    grid-template-areas: "FSG_Col1 FSG_Col2 FSG_Col3";
+    grid-template-columns: 33% 34% 33%;
+    position: relative;
+    height: auto;
+    background-color: inherit;
+}
+
+div.FSGLeftCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FSG_Col1;
+    position: relative;
+    height: inherit;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+div.FSGCentralCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FSG_Col2;
+    position: relative;
+    height: inherit;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.FSGRightCorner {
+    display: flex;
+    background-color: inherit;
+    grid-area: FSG_Col3;
+    position: relative;
+    height: inherit;
+    justify-content: right;
+    align-items: flex-start;
 }

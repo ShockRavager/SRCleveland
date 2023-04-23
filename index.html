@@ -110,7 +110,9 @@
             </nav>
         </div>
         <div class="HGCentralCorner" id="ID_HGCentralCorner">
-            <img src="Media/Images/MainHeaderLogo.svg" alt="" id="ID_MainHeaderLogoIMG" style="pointer-events: none; width: 25%; position: relative; display: flex">
+            <div class="DefaultFlexDiv" style="height: 100%; justify-content: center">
+                <img src="Media/Images/MainHeaderLogo.svg" alt="" id="ID_MainHeaderLogoIMG" style="pointer-events: none; width: 25%; position: relative; display: flex">
+            </div>
         </div>
         <div class="HGRightCorner" id="ID_HGRightCorner">
             <nav class="HeaderNav" id="ID_HeaderNav2">
@@ -127,12 +129,27 @@
                 <div class="HeaderRightDD1" id="ID_HeaderRightDD1">
                     <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_6">
                         <span class="DefaultSpan">
-                            Home
+                            Sign in
                         </span>
                     </button>
                     <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_7">
                         <span class="DefaultSpan">
-                            News
+                            Create account
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_8">
+                        <span class="DefaultSpan">
+                            Newsletters
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_9">
+                        <span class="DefaultSpan">
+                            Custom alerts
+                        </span>
+                    </button>
+                    <button class="HeaderDDBTN1" id="ID_HeaderDDBTN1_1_10">
+                        <span class="DefaultSpan">
+                            Help/FAQ
                         </span>
                     </button>
                 </div>
@@ -140,7 +157,7 @@
         </div>
     </div>
 </div>
-<div class="Page" id="ID_Page" style="background-color: #ffefdd">
+<div class="Page" id="ID_Page" style="background-color: #fff5ec">
     <div class="PageGrid" id="ID_PageGrid">
         <div class="PGLeftCorner" id="ID_PGLeftCorner"></div>
         <div class="PGCentralCorner" id="ID_PGCentralCorner">
@@ -158,20 +175,57 @@
                     <div class="PGCCGrid" id="ID_PGCCGrid">
                         <div class="PGCCLeft" id="ID_PGCCLeft">
                             <div class="DefaultFlexDiv">
+                                <div class="DefaultFlexDiv" style="justify-content: space-between">
+                                    <div style="width: 50%; justify-content: left">
+                                        <img src="Media/Images/NewsImage2.avif" alt="" id="ID_NewsImage2_IMG1" style="pointer-events: none; width: 80%; position: relative;">
+                                        <div class="VSpace" style="height: 8px"></div>
+                                        <span class="DefaultSpan" style="display: block; width: 80%; font-size: 18px; font-weight: bold">The Plain Dealer’s front page for April 21, 2023</span>
+                                        <br>
+                                        <span class="DefaultSpan" style="display: block; width: 80%; font-size: 13px; color: #006c8f">By Mike Rose</span>
+                                        <div class="VSpace" style="height: 16px"></div>
+                                        <div class="DefaultFlexDiv" style="width: 80%; justify-content: right">
+                                            <button class="DefaultButton" style="margin-right: 12px; padding: 6px; cursor: pointer">
+                                                Subscriber exclusive
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div style="width: 50%; justify-content: left">
+                                        <img src="Media/Images/NewsImage2.avif" alt="" id="ID_NewsImage2_IMG2" style="pointer-events: none; width: 80%; position: relative;">
+                                        <div class="VSpace" style="height: 8px"></div>
+                                        <span class="DefaultSpan" style="display: block; width: 80%; font-size: 18px; font-weight: bold">The Plain Dealer’s front page for April 20, 2023</span>
+                                        <br>
+                                        <span class="DefaultSpan" style="display: block; width: 80%; font-size: 13px; color: #006c8f">By Mike Rose</span>
+                                        <div class="VSpace" style="height: 16px"></div>
+                                        <div class="DefaultFlexDiv" style="width: 80%; justify-content: right">
+                                            <button class="DefaultButton" style="margin-right: 12px; padding: 6px; cursor: pointer">
+                                                Subscriber exclusive
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="VSpace" style="height: 16px;"></div>
+                                    <div class="VSpace" style="height: 1px; background-color: #646464"></div>
+                                    <div class="VSpace" style="height: 40px;"></div>
+                                </div>
                                 <div class="DefaultFlexDiv" style="justify-content: left">
-                                    <img src="Media/Images/NewsImage1.avif" alt="" id="ID_NewsImage1_IMG1" style="float: left; pointer-events: none; width: 20%; position: relative;">
+                                    <img src="Media/Images/NewsImage1.avif" alt="" id="ID_NewsImage1_IMG1" style="pointer-events: none; width: 20%; position: relative;">
                                     <div style="width: 80%">
                                         <div class="VSpace" style="height: 6px"></div>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
-                                        The plain dealer's front page of April 19 2023
-                                    </span>
+                                            The plain dealer's front page of April 19 2023
+                                        </span>
                                         <div class="VSpace" style="height: 12px"></div>
                                         <p class="DefaultParagraph" style="margin-left: 24px">
                                             Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
                                         </p>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
-                                        By Mark Rose
-                                    </span>
+                                            By Mark Rose
+                                        </span>
+                                        <div class="VSpace" style="height: 30px"></div>
+                                        <div class="DefaultFlexDiv" style="width: 80%; justify-content: left">
+                                            <button class="DefaultButton" style="margin-left: 24px; padding: 6px; cursor: pointer">
+                                                Subscriber exclusive
+                                            </button>
+                                        </div>
                                     </div>
                                     <div class="VSpace" style="height: 16px;"></div>
                                     <div class="VSpace" style="height: 1px; background-color: #646464"></div>
@@ -182,15 +236,21 @@
                                     <div style="width: 80%">
                                         <div class="VSpace" style="height: 6px"></div>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
-                                        The plain dealer's front page of April 19 2023
-                                    </span>
+                                            The plain dealer's front page of April 19 2023
+                                        </span>
                                         <div class="VSpace" style="height: 12px"></div>
                                         <p class="DefaultParagraph" style="margin-left: 24px">
                                             Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
                                         </p>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
-                                        By Mark Rose
-                                    </span>
+                                            By Mark Rose
+                                        </span>
+                                        <div class="VSpace" style="height: 30px"></div>
+                                        <div class="DefaultFlexDiv" style="width: 80%; justify-content: left">
+                                            <button class="DefaultButton" style="margin-left: 24px; padding: 6px; cursor: pointer">
+                                                Subscriber exclusive
+                                            </button>
+                                        </div>
                                     </div>
                                     <div class="VSpace" style="height: 16px;"></div>
                                     <div class="VSpace" style="height: 1px; background-color: #646464"></div>
@@ -201,15 +261,21 @@
                                     <div style="width: 80%">
                                         <div class="VSpace" style="height: 6px"></div>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: bold; font-size: 20px; pointer-events: none">
-                                        The plain dealer's front page of April 19 2023
-                                    </span>
+                                            The plain dealer's front page of April 19 2023
+                                        </span>
                                         <div class="VSpace" style="height: 12px"></div>
                                         <p class="DefaultParagraph" style="margin-left: 24px">
                                             Cleveland Plain Dealer front page for 4/19/23. Please send news tips and coverage requests to news@cleveland.com.
                                         </p>
                                         <span class="DefaultSpan" style="margin-left: 24px; font-weight: normal; font-size: 13px; pointer-events: none; color: #006c8f">
-                                        By Mark Rose
-                                    </span>
+                                            By Mark Rose
+                                        </span>
+                                        <div class="VSpace" style="height: 30px"></div>
+                                        <div class="DefaultFlexDiv" style="width: 80%; justify-content: left">
+                                            <button class="DefaultButton" style="margin-left: 24px; padding: 6px; cursor: pointer">
+                                                Subscriber exclusive
+                                            </button>
+                                        </div>
                                     </div>
                                     <div class="VSpace" style="height: 16px;"></div>
                                     <div class="VSpace" style="height: 1px; background-color: #646464"></div>
@@ -221,21 +287,21 @@
                             <div class="DefaultFlexDiv" style="margin-left: 40px; align-content: flex-start">
                                 <div class="DefaultFlexDiv" style="justify-content: center">
                                     <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
-                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG1" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG1" style="pointer-events: none; width: 100%; position: relative;">
                                     <div class="VSpace" style="height: 12px"></div>
                                     <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
                                 </div>
                                 <div class="VSpace" style="height: 50px"></div>
                                 <div class="DefaultFlexDiv" style="justify-content: center">
                                     <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
-                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG2" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG2" style="pointer-events: none; width: 100%; position: relative;">
                                     <div class="VSpace" style="height: 12px"></div>
                                     <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
                                 </div>
                                 <div class="VSpace" style="height: 50px"></div>
                                 <div class="DefaultFlexDiv" style="justify-content: center; position: sticky; top: 120px">
                                     <span class="AdvertisementUp" style="margin-bottom: 2px">Advertisement</span>
-                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG3" style="float: left; pointer-events: none; width: 100%; position: relative;">
+                                    <img src="Media/Images/SampleAdvImage1.png" alt="" id="ID_SampleAdvImage1_IMG3" style="pointer-events: none; width: 100%; position: relative;">
                                     <div class="VSpace" style="height: 12px"></div>
                                     <span class="DefaultSpan" style="font-weight: bold">[Advertisement title]</span>
                                 </div>
@@ -249,12 +315,230 @@
     </div>
     <div class="VSpace" style="height: 80px"></div>
 </div>
-<div class="Footer" id="ID_Footer" style="height: 400px; background-color: #d2d2d2">
+<div class="Footer" id="ID_Footer" style="background-color: #d2d2d2">
     <div class="VSpace" style="height: 1px; background-color: #646464"></div>
     <div class="VSpace" style="height: 60px"></div>
     <div class="VSpace" style="height: 1px; background-color: #646464"></div>
     <div class="FooterGrid" id="ID_FooterGrid">
+        <div class="FGLeftCorner" id="ID_FGLeftCorner"></div>
+        <div class="FGCentralCorner" id="ID_FGCentralCorner">
+            <div style="width: 100%; justify-content: left">
+                <div class="VSpace" style="height: 30px"></div>
+                <div class="DefaultFlexDiv" style="width: 100%">
+                    <img src="Media/Images/FooterLogo1.avif" alt="" id="ID_FooterLogo1_IMG1" style="pointer-events: none; width: 12%; position: relative;">
+                </div>
+                <div class="VSpace" style="height: 50px"></div>
+                <div class="FooterSubGrid">
+                    <div class="FSGLeftCorner" id="ID_FSGLeftCorner1">
+                        <div class="DefaultFlexDiv">
+                            <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                More on Cleveland.com
+                            </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sell your car
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sponsor content
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Post a job
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sitemap & search
+                            </span>
+                        </div>
+                    </div>
+                    <div class="FSGCentralCorner" id="ID_FSGCentralCorner1">
+                        <div class="DefaultFlexDiv">
+                            <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                Cleveland.com sections
+                            </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sport
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Entertainment
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Politics
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Opinion
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Living
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Betting
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                News
+                            </span>
+                        </div>
+                    </div>
+                    <div class="FSGRightCorner" id="ID_FSGRightCorner1">
+                        <div class="DefaultFlexDiv">
+                                <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                    More on Cleveland.com
+                                </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sell your car
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sponsor content
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Post a job
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sitemap & search
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="VSpace" style="height: 50px"></div>
+                <div class="FooterSubGrid">
+                    <div class="FSGLeftCorner" id="ID_FSGLeftCorner2">
+                        <div class="DefaultFlexDiv">
+                            <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                More on Cleveland.com
+                            </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sell your car
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sponsor content
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Post a job
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sitemap & search
+                            </span>
+                        </div>
+                    </div>
+                    <div class="FSGCentralCorner" id="ID_FSGCentralCorner2">
+                        <div class="DefaultFlexDiv">
+                                <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                    More on Cleveland.com
+                                </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sell your car
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sponsor content
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Post a job
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sitemap & search
+                                </span>
+                        </div>
+                    </div>
+                    <div class="FSGRightCorner" id="ID_FSGRightCorner2">
+                        <div class="DefaultFlexDiv">
+                                <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                    More on Cleveland.com
+                                </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sell your car
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sponsor content
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Post a job
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sitemap & search
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="VSpace" style="height: 50px"></div>
+                <div class="FooterSubGrid">
+                    <div class="FSGLeftCorner" id="ID_FSGLeftCorner3">
+                        <div class="DefaultFlexDiv">
+                            <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                More on Cleveland.com
+                            </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sell your car
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sponsor content
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Post a job
+                            </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                Sitemap & search
+                            </span>
+                        </div>
+                    </div>
+                    <div class="FSGCentralCorner" id="ID_FSGCentralCorner3">
+                        <div class="DefaultFlexDiv">
+                                <span class="DefaultSpan" style="width: 100%; font-size: 16px; font-weight: bold">
+                                    More on Cleveland.com
+                                </span>
+                            <div class="VSpace" style="height: 12px"></div>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sell your car
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sponsor content
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Post a job
+                                </span>
+                            <span class="SimulatedLink" style="margin: 2px 0 2px 0; width: 100%; font-size: 14px;">
+                                    Sitemap & search
+                                </span>
+                        </div>
+                    </div>
+                    <div class="FSGRightCorner" id="ID_FSGRightCorner3"></div>
+                </div>
+                <div class="VSpace" style="height: 60px"></div>
+                <div class="VSpace" style="height: 1px; background-color: #8d8d8d"></div>
+                <div class="VSpace" style="height: 50px"></div>
+                <div style="background-color: inherit; height: auto; width: 100%; display: flex; position: relative; flex-wrap: wrap">
+                    <img src="Media/Images/AdvanceLocalLogo.svg" id="ID_AdvanceLocalLogoIMG1" alt="" style="width: 24%; position: relative; margin-left: 100px">
+                    <div class="VSpace" style="height: 40px"></div>
+                    <p style="font-size: 14px; font-family: Roboto, sans-serif; text-align: justify; margin: 0 100px 0 100px">
+                        Use of and/or registration on any portion of this site constitutes acceptance of our User Agreement (updated 4/4/2023),
+                        Privacy Policy and Cookie Statement, and Your Privacy Choices and Rights (each updated 1/26/2023).
+                    </p>
+                    <div class="VSpace" style="width: 100%; height: 12px"></div>
+                    <div style="width: 100%; padding: 0 100px 0 100px; align-items: center">
+                        <button class="DefaultButton" style="font-weight: bold; margin: 12px 0 12px 0; padding: 6px 24px 6px 24px; background-color: #8d8d8d" onmouseover="this.style.backgroundColor = '#ff8771'" onmouseleave="this.style.backgroundColor = '#8d8d8d'">
+                            Cookies settings
+                        </button>
+                    </div>
+                    <div class="VSpace" style="width: 100%; height: 12px"></div>
+                    <p style="font-size: 14px; font-family: Roboto, sans-serif; text-align: justify; margin: 0 100px 0 100px">
+                        © 2023 Advance Local Media LLC. All rights reserved (About Us).
+                        The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used,
+                        except with the prior written permission of Advance Local.
 
+                        Community Rules apply to all content you upload or otherwise submit to this site.
+
+                        YouTube’s privacy policy is available here and YouTube’s terms of service is available here.
+
+                        Ad ChoicesAd Choices
+                    </p>
+                </div>
+                <div class="VSpace" style="height: 80px"></div>
+            </div>
+        </div>
+        <div class="FGRightCorner" id="ID_FGRightCorner"></div>
     </div>
 </div>
 </body>

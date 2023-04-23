@@ -27,7 +27,7 @@ div.HGCentralCorner {
     position: relative;
     height: inherit;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 div.HGRightCorner {
@@ -37,5 +37,5 @@ div.HGRightCorner {
     position: relative;
     height: inherit;
     justify-content: right;
-    align-items: flex-end;
+    align-items: flex-start;
 }
