@@ -80,6 +80,7 @@ button.DefaultButton {
 }
 
 button.DefaultButton:hover {
+    cursor: pointer;
     background-color: #d2d2d2;
     transition-duration: 500ms;
 }
