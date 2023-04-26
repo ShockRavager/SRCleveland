@@ -1,7 +1,6 @@
 
 function OnBodyLoad() {
     let LLocalElement = document.getElementById("ID_HeaderLeftDD1_1");
-    let LLocalValue = [0];
 
     LLocalElement.style.top = document.getElementById("ID_Header").offsetHeight + "px";
     LLocalElement.style.left = document.getElementById("ID_HeaderBTN1").offsetLeft + "px";
@@ -23,9 +22,8 @@ function OnBodyLoad() {
     LLocalElement.style.visibility = "hidden";
 
     LLocalElement = document.getElementById("ID_HeaderRightDD1");
-    LLocalValue[0] = document.getElementById("ID_HeaderBTN4").offsetLeft - document.getElementById("ID_HeaderRightDD1").offsetWidth + document.getElementById("ID_HeaderBTN4").offsetWidth;
     LLocalElement.style.top = document.getElementById("ID_Header").offsetHeight + "px";
-    LLocalElement.style.left = LLocalValue[0] + "px";
+    LLocalElement.style.right = parseInt(document.getElementById("ID_HeaderBTN4").style.marginRight, 10) + "px";
     LLocalElement.style.visibility = "hidden";
 }
 
